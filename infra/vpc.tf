@@ -101,6 +101,9 @@ resource "aws_vpc_security_group_ingress_rule" "myingress" {
   cidr_ipv4         = "0.0.0.0/0"
 }
 
+
+
+
 # import blocks that associate the existing resource IDs in your AWS account
 import { #every block is going to be a variation of this
   to = aws_vpc.myvpc
